@@ -1,0 +1,10 @@
+#hero-image {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 100px auto;
+}
+
+body {
+    /*background-color: red;*/
+}
