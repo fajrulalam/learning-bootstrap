@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+
+
+
+<!--    FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Ubuntu&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Inkubis</title>
+
+<!--    BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
 
+    <!--    FONTAWESOME-->
+    <script src="https://use.fontawesome.com/f89c118519.js"></script>
     <link rel="icon" href="images/hero_image.jpg">
+
 
 </head>
 <body>
 
+
 <!--NAVBAR-->
 <nav class="navbar navbar-expand-md bg-danger navbar-dark">
-    <a href="" class="navbar-brand ms-3">Inkubis</a>
+    <a href="" class="navbar-brand">Inkubis</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse ms-3" id="navbarToggle">
-        <ul class="navbar-nav ms-auto me-3">
+    <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                 <a href="" class="nav-link">Tentang Kami</a>
             </li>
@@ -36,38 +51,47 @@
 </nav>
 
 <!--FIRST SECTION (TITLE)-->
-<section id="title">
 
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div>
-                <h2>Belajar di Pondok dengan Kecanggihan Teknologi</h2>
-                <p>Belajar di Pondok kini sudah tidak perlu dengan metode jadul lagi! Santri juga perlu kepiawaian digital untuk bisa bersaing di masa depan. Inkubis menggabungkan nilai-nilai luhur Pondok Pesantren dengan kemajuan teknologi untuk melahirkan Santri yang tak hanya cakap mengaji, tapi juga tangkas menggunakan teknologi.</p>
-                <button>Daftar</button>
+<div class="container-fluid">
+    <section id="title">
+
+        <div class="row">
+            <div class="col-lg-6" id="hero-text">
+                <div>
+                    <h2 class="title">Belajar di Pondok dengan Kecanggihan Teknologi</h2>
+                    <p class="quick-intro">Inkubis menggabungkan nilai-nilai luhur Pondok Pesantren dengan kemajuan teknologi untuk melahirkan Santri yang tak hanya cakap mengaji, tapi juga tangkas menggunakan teknologi.</p>
+                    <button class="btn btn-primary btn-sm" style="display: inline">Daftar</button>
+                    <button class="btn btn-outline-secondary btn-sm">Masuk</button>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div>
+                    <img src="images/hero_image.jpg" alt="Belajar IT" class="img-fluid rounded" id="hero-image">
+                </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div>
-                <img src="images/hero_image.jpg" alt="Belajar IT" class="img-fluid rounded" id="hero-image">
-            </div>
-        </div>
-    </div>
 
-    <div>
-    </div>
-</section>
+        <div>
+        </div>
+    </section>
+</div>
+
 
 <!--SECOND SECTION (PRINCIPLES) -->
-<section id="principles">
-    <h3>Seru</h3>
-    <p>Keseruan dalam belajar harus dirasakan anak-anak.</p>
 
-    <h3>Berbobot</h3>
-    <p>Ilmu yang didapatkan akan bermanfaat bagi siswa.</p>
+<div class="container-fluid" id="principles-section">
+    <section id="principles">
+        <h3>Seru</h3>
+        <p>Keseruan dalam belajar harus dirasakan anak-anak.</p>
 
-    <h3>Standar Internasional</h3>
-    <p>Metode belajar menggunakan fasilitas dan teknologi berstandar internasional</p>
-</section>
+        <h3>Berbobot</h3>
+        <p>Ilmu yang didapatkan akan bermanfaat bagi siswa.</p>
+
+        <h3>Standar Internasional</h3>
+        <p>Metode belajar menggunakan fasilitas dan teknologi berstandar internasional</p>
+    </section>
+</div>
+
 
 <!--THIRD SECTION (KELAS)-->
 <section id="kelas">
@@ -93,6 +117,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
