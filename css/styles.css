@@ -7,7 +7,7 @@
     display: block;
     max-width: 75%;
     height: auto;
-    margin: 100px auto 125px auto;
+    margin: 50px auto 50px auto;
 }
 
 #hero-text {
@@ -53,5 +53,14 @@ body {
 
 #principles-section {
     background-color: #ff726f;
+    color: white;
+    padding: 100px 0px;
 }
+
+#principles-section h3 {
+    font-weight: bold;
+}
+
+
+
 
