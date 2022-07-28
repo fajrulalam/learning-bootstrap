@@ -1,8 +1,13 @@
+#navbar {
+    background-color: #ff726f;
+    font-weight: bold;
+}
+
 #hero-image {
     display: block;
     max-width: 75%;
     height: auto;
-    margin: 125px auto 125px auto;
+    margin: 100px auto 125px auto;
 }
 
 #hero-text {
@@ -47,6 +52,6 @@ body {
 }
 
 #principles-section {
-    background-color: #df4759;
+    background-color: #ff726f;
 }
 
