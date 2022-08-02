@@ -103,6 +103,25 @@ body {
     margin: auto;
 }
 
+hr {
+    margin: 0 30%;
+    height: 2px;
+    size: 2px;
+}
+
+.title-daftar  {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.highlight {
+    padding: 2px 8px;
+    background-color: #ffac94;
+    border-radius: 1px;
+    font-family: "Montserrat ExtraBold";
+
+}
+
 
 
 
