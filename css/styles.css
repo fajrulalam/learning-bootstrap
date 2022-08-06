@@ -103,6 +103,17 @@ body {
     margin: auto;
 }
 
+.principles {
+    margin-top: 75px;
+}
+
+#carouselExampleDark {
+    max-width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
 hr {
     margin: 0 30%;
     height: 2px;
@@ -119,7 +130,50 @@ hr {
     background-color: #ffac94;
     border-radius: 1px;
     font-family: "Montserrat ExtraBold";
+}
 
+#footer {
+    background-color: #ffac94;
+    padding: 30px 5%;
+    text-align: center;
+}
+
+#footer .link a, #footer p{
+    color: #f6f6f6;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+#footer .link {
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+#footer .link:hover {
+    text-decoration: underline;
+}
+
+#footer h1 {
+    color: white;
+    font-family: "Montserrat ExtraBold";
+}
+
+.external-link {
+    width: 30px;
+    height: 30px;
+    margin: 12px 12px;
+}
+
+.external-link:hover {
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    margin: 12px 12px;
+}
+
+.copyright {
+    margin-top: 12px;
+    color: #cbcbcb;
 }
 
 
